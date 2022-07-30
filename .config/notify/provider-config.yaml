@@ -1,0 +1,12 @@
+discord:
+  - id: "crawl"
+    discord_channel: "crawl"
+    discord_username: "test"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1001027414568206378/IvAQX9NE-ekp08rpWd_CwcCIpt_KhQGHSVnlBiqs1wKZauJL3nZAXhYemwE_Zs1GFv2t"
+
+  - id: "subs"
+    discord_channel: "subs"
+    discord_username: "test"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1001027414568206378/IvAQX9NE-ekp08rpWd_CwcCIpt_KhQGHSVnlBiqs1wKZauJL3nZAXhYemwE_Zs1GFv2t"
