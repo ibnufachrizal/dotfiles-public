@@ -105,9 +105,20 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
-
+# Golang ENV
 export GOROOT="/usr/local/go"
 export GOPATH="$HOME/go"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin:${PATH}"
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
+
+# aliases
+alias cl='clear'
+alias py='python3'
+alias myip='ifconfig | grep "inet"'
+alias ip='curl ipinfo.io/ip'
+alias pyserver='python -m SimpleHTTPServer'
+alias st='speedtest'
+alias sc='source ~/.zshrc'
+alias open-ports='lsof -i -P -n | grep LISTEN'
